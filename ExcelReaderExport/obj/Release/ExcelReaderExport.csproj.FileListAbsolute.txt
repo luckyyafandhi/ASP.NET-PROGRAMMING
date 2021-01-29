@@ -1,0 +1,63 @@
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ExcelReaderExport.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ExcelReaderExport.pdb
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\EPPlus.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OOXML.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\System.Net.Http.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXmlFormats.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.xml
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OOXML.xml
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.xml
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\System.Net.Http.xml
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.dll
+D:\Kerja\FDT\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.pdb
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ExcelReaderExport.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ExcelReaderExport.pdb
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\EPPlus.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OOXML.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\System.Net.Http.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXmlFormats.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.xml
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OOXML.xml
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.xml
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\System.Net.Http.xml
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.csprojResolveAssemblyReference.cache
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.dll
+D:\GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.pdb
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ExcelReaderExport.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ExcelReaderExport.pdb
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\EPPlus.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OOXML.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\System.Net.Http.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXmlFormats.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.xml
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OOXML.xml
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.xml
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\bin\Release\System.Net.Http.xml
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.csprojResolveAssemblyReference.cache
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.dll
+D:\_GITHUB\CBGBA-FD-TRACKING\SOURCECODE-LANTERN-DEV\ExcelReaderReport\ExcelReaderExport\obj\Release\ExcelReaderExport.pdb
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\ExcelReaderExport.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\ExcelReaderExport.pdb
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\EPPlus.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.OOXML.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\System.Net.Http.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.OpenXmlFormats.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.xml
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.OOXML.xml
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\NPOI.OpenXml4Net.xml
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\bin\Release\System.Net.Http.xml
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\obj\Release\ExcelReaderExport.csprojResolveAssemblyReference.cache
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\obj\Release\ExcelReaderExport.dll
+D:\Tugas Akhir Lucky\TUGAS AKHIR\PROGRAM\CODE\WebApplication1\ExcelReaderExport\obj\Release\ExcelReaderExport.pdb

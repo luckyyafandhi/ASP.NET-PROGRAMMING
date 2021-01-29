@@ -1,0 +1,4 @@
+cara jalankan scriptnya
+-running script table type terlebih dahulu
+setelah itu
+-jalankan store procedurenya

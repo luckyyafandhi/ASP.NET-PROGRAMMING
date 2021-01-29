@@ -1,0 +1,186 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ClaimApp.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <%--    <link href="Content/dx.spa.css" rel="stylesheet" />
+    <link href="Content/dx.common.css" rel="stylesheet" />
+    <link href="Content/dx.light.css" data-theme="generic.light" rel="dx-theme" />--%>
+
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/AdminLTE.css" />
+    <link rel="stylesheet" href="assets/css/skins/_all-skins.min.css" />
+    <link rel="stylesheet" href="bower_components/morris.js/morris.css" />
+    <link rel="stylesheet" href="bower_components/jvectormap/jquery-jvectormap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css" />
+    <link type="text/css" rel="stylesheet" href="bower_components/ErrorPage/style.css" />
+    <%--<link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />--%>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <%--<link rel="stylesheet" href="bower_components/sweetalert/sweetalert2.all.min.js"/>--%>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/raphael/raphael.min.js"></script>
+    <script src="bower_components/morris.js/morris.min.js"></script>
+    <script src="bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <%-- <script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>--%>
+    <script src="bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <%--<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>--%>
+    <script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="assets/js/adminlte.min.js"></script>
+
+    <%--<script src="bower_components/jquery_blockUI/jquery.blockUI.js"></script>--%>
+    <script src="bower_components/sweetalert/sweetalert2.all.min.js"></script>
+    <asp:ContentPlaceHolder ID="headerPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="skin-black sidebar-mini fixed sidebar-collapse">
+    <%--skin-black sidebar-mini fixed sidebar-collapse--%>
+    <div class="wrapper">
+        <form id="formMobileInsurance" runat="server" autocomplete="off">
+            <header class="main-header">
+                <asp:HyperLink ID="linkLogo" runat="server" NavigateUrl="~/Home.aspx" CssClass="logo">
+                    <span class="logo-mini"><img src="assets/img/short-logo.png" style="max-width: 40px;" /></span>
+                    <span class="logo-lg"><img src="assets/img/logo-2.png" style="max-height: 40px;" /></span>
+                </asp:HyperLink>
+                <nav class="navbar navbar-static-top">
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-user">
+                                        <asp:Label ID="lblLoginUsername" runat="server" Text="" CssClass="hidden-xs"></asp:Label>
+                                    </i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="user-footer">
+                                        <div class="pull-right">
+                                            <asp:LinkButton ID="linkLogout" runat="server" CssClass="btn btn-default btn-flat" OnClick="linkLogout_Click"><i class="fa fa-sign-out"></i> SIGN OUT</asp:LinkButton>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu" data-widget="tree">
+                        <li class="treeview-active">
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Home.aspx">
+                                <i class="fa fa-tachometer"></i>&nbsp;&nbsp;<span>DASHBOARD</span>
+                            </asp:HyperLink>
+                        </li>
+                        <li class="treeview">
+                            <asp:HyperLink ID="linkMaster" runat="server" NavigateUrl="#">
+                                <i class="fa fa-folder"></i>&nbsp;&nbsp;<span>MASTER</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </asp:HyperLink>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <asp:HyperLink ID="linkMasterBengkel" runat="server" NavigateUrl="~/MasterBengkel.aspx"><i class="fa fa-car"></i>&nbsp;&nbsp;<span>Workshop</span></asp:HyperLink>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <asp:HyperLink ID="linkTransactions" runat="server" NavigateUrl="#">
+                                <i class="fa fa-tags"></i>&nbsp;&nbsp;<span>TRANSACTION</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </asp:HyperLink>
+                            <ul class="treeview-menu">
+                                <li class="treeview">
+                                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="#">
+                                        <i class="fa fa-motorcycle"></i>&nbsp;&nbsp;<span>MOTOR VEHICLE</span>
+                                        <span class="pull-right-container">
+                                            <i class="fa fa-angle-left pull-right"></i>
+                                        </span>
+                                    </asp:HyperLink>
+                                    <ul class="treeview-menu">
+                                        <li>
+                                            <asp:HyperLink ID="linkClaimUpload" runat="server" NavigateUrl="~/ClaimMV_Upload.aspx"><i class="fa fa-cloud-upload"></i>&nbsp;&nbsp;<span>Claim Upload</span></asp:HyperLink>
+                                        </li>
+                                        <li>
+                                            <asp:HyperLink ID="linkClaimManual" runat="server" NavigateUrl="~/ClaimMV_Manual.aspx"><i class="fa fa-file-text"></i>&nbsp;&nbsp;<span>Claim Manual</span></asp:HyperLink>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <asp:HyperLink ID="linkMarineCargo" runat="server" NavigateUrl="~/MaintanceForm.aspx"><i class="fa fa-ship"></i>&nbsp;&nbsp;<span>Marine Cargo</span></asp:HyperLink>
+                                </li>
+
+
+                                <li>
+                                    <asp:HyperLink ID="linkProperti" runat="server" NavigateUrl="~/MaintanceForm.aspx"><i class="fa fa-home"></i>&nbsp;&nbsp;<span>Properti</span></asp:HyperLink>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <asp:HyperLink ID="linkReport" runat="server" NavigateUrl="#">
+                                <i class="fa fa-cog fa-spin fa-fw"></i>&nbsp;&nbsp;<span>REPORT</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right "></i>
+                                </span>
+                            </asp:HyperLink>
+                            <ul class="treeview-menu">
+                            </ul>
+                        </li>
+                        <!-- <li class="treeview">
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="#">
+                                <i class="fa fa-list"></i>&nbsp;&nbsp;<span>AUDIT & TRAIL</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </asp:HyperLink>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <asp:HyperLink ID="linkListView" runat="server" NavigateUrl="~/ListAuditTrail.aspx"><i class="fa fa-file-text"></i>&nbsp;&nbsp;<span>List Audit & Trail</span></asp:HyperLink>
+                                </li>
+                            </ul>
+                        </li>-->
+                    </ul>
+                </section>
+                /.sidebar 
+            </aside>
+            <div class="content-wrapper">
+                <div class="dashboard-content">
+                    <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0
+                </div>
+                <strong>Copyright &copy; 2020 <a href="https://www.indosurance.com" target="_blank">PT Indosurance Broker Utama</a>.</strong> All rights reserved.
+            </footer>
+        </form>
+    </div>
+    <asp:ContentPlaceHolder ID="footerPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>
